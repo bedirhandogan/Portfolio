@@ -1,0 +1,256 @@
+body {
+  
+  background: #222326;
+  overflow:-moz-scrollbars-vertical; 
+  overflow-x:hidden; 
+  overflow:-moz-scrollbars-vertical;
+  overflow-y:hidden;
+  
+}
+
+.background {
+  
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  
+}
+
+.background.hide {
+  
+  opacity: 0;
+  visibility: 0;
+  
+}
+
+li {
+  display: block;
+}
+
+ul li:nth-child(1) {
+  
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  left: 70px; 
+  animation: star 1.2s ease-in-out infinite;
+  animation-direction: alternate;
+  transform: scale(1.2);
+  
+}
+
+ul li:nth-child(2) {
+  
+  color: #8643CD;
+  font-size: 25px;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  animation: star 1.5s ease-in-out infinite;
+  animation-direction: alternate;
+  
+}
+
+ul li:nth-child(3) {
+  
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 90px;
+  right: 5px;
+  animation: star 1.4s ease-in-out infinite;
+  animation-direction: alternate;
+  transform: scale(1.25);
+  
+}
+
+ul li:nth-child(4) {
+  
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 230px;
+  left: 20px;
+  animation: star 1.3s ease-in-out infinite;
+  animation-direction: alternate;
+  transform: scale(1.1);
+  
+}
+
+ul li:nth-child(5) {
+  
+  color: #8643CD;
+  font-size: 25px;
+  position: absolute;
+  top: 255px;
+  right: 20px;
+  animation: star 1.35s ease-in-out infinite;
+  animation-direction: alternate;
+  
+}
+
+ul li:nth-child(6) {
+  
+  color: #8643CD;
+  font-size: 25px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  animation: star 1.9s ease-in-out infinite;
+  animation-direction: alternate;
+  transform: scale(1.3);
+  
+}
+
+@keyframes star {
+  
+  0% {
+    
+    opacity: 0;
+    visibility: 0;
+    transform: rotate(180deg) scale(1);
+    
+  }
+  
+}
+
+#ring {
+  
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  
+}
+
+#ring:nth-child(1) {
+  
+  border: 2px solid #8643CD; 
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  animation: spatial 4s ease-in-out infinite;
+  animation-fill-mode: forwards;
+  
+}
+
+#ring:nth-child(2) {
+  
+  border: 2px solid white; 
+  position: absolute;
+  bottom: -100px;
+  left: -70px;
+  animation: spatial 5s ease-in-out infinite;
+  animation-fill-mode: forwards;
+  
+}
+
+#ring:nth-child(3) {
+  
+  border: 2px solid #8643CD; 
+  position: absolute;
+  bottom: -100px;
+  left: -140px;
+  animation: spatial 9s ease-in-out infinite;
+  animation-fill-mode: forwards;  
+  
+}
+
+#ring:nth-child(4) {
+  
+  border: 2px solid gray; 
+  position: absolute;
+  bottom: -100px;
+  left: -210px;
+  animation: spatial 7s ease-in-out infinite;
+  animation-fill-mode: forwards;
+  
+}
+
+#ring:nth-child(5) {
+  
+  border: 2px solid white; 
+  position: absolute;
+  bottom: -100px;
+  left: -280px;
+  animation: spatial 12s ease-in-out infinite;
+  animation-fill-mode: forwards;
+  
+}
+
+#ring:nth-child(6) {
+  
+  border: 2px solid #8643CD; 
+  position: absolute;
+  bottom: -100px;
+  left: -350px;
+  animation: spatial 10s ease-in-out infinite;
+  animation-fill-mode: forwards;
+  
+}
+
+#ring:nth-child(7) {
+  
+  border: 2px solid #8643CD; 
+  position: absolute;
+  bottom: -100px;
+  left: -420px;
+  animation: spatial 8s ease-in-out infinite;
+  animation-fill-mode: forwards;
+  
+}
+
+#ring:nth-child(8) {
+  
+  border: 2px solid white; 
+  position: absolute;
+  bottom: -100px;
+  left: -490px;
+  animation: spatial 14s ease-in-out infinite;
+  animation-fill-mode: forwards;
+  
+}
+
+#ring:nth-child(9) {
+  
+  border: 2px solid #8643CD; 
+  position: absolute;
+  bottom: -100px;
+  left: -560px;
+  animation: spatial 13s ease-in-out infinite;
+  animation-fill-mode: forwards;
+  
+}
+
+#ring:nth-child(10) {
+  
+  border: 2px solid gray; 
+  position: absolute;
+  bottom: -100px;
+  left: -630px;
+  animation: spatial 5s ease-in-out infinite;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes spatial {
+  
+  0% {
+    
+    opacity: 0;
+    visibility: 0;
+    
+  }
+  
+  100% {
+    
+    transform: translate(1500px, -1500px);
+    
+  }
+  
+}

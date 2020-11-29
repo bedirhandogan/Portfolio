@@ -1,0 +1,86 @@
+/********** Swipe **********/
+.btn {
+  
+  width: 30px;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: -320px;
+  bottom: 0;
+  margin: auto;
+  
+}
+
+.up {
+  
+  color: #8643CD;
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  animation: up 1s ease;
+  
+}
+
+@keyframes up {
+  
+  0% {
+    
+    opacity: 0;
+    visibility: 0;
+    
+    
+  } 
+} 
+
+.down {
+  
+  color: #8643CD;
+  font-size: 25px;
+  position: absolute; 
+  bottom: 0;
+  animation: down 1s ease;
+  
+}
+
+@keyframes down {
+  
+  0% {
+    
+    opacity: 0;
+    visibility: 0;
+     
+    
+  } 
+} 
+
+.down.pos {
+  
+  position: absolute;
+  top: 20px;
+  
+}
+
+.up.pos-2 {
+  
+  position: absolute;
+  top: 20px;
+  
+}
+
+/********** Project **********/
+.project-view {
+  
+  width: 80px;
+  height: 25px;
+  border: 1px solid #8643CD;
+  border-radius: 5px;
+  position: absolute;
+  top: 120px;
+  left: -6.5px;
+  
+}

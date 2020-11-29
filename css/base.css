@@ -1,0 +1,224 @@
+.profile {
+  
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.user {
+  
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 1px outset #8643CD;
+  position: absolute;
+  top: -10px;
+  background: url('https://i.hizliresim.com/v2w0DF.gif');
+  background-size: cover;
+  
+}
+
+.user:hover {
+  
+  transform: scale(1.1);
+  transition: 1s;
+  
+}
+
+.hr {
+  
+  width: 35px;
+  height: 1.5px;
+  background: #ddd;
+  position: absolute;
+  top: 158px;
+  
+}
+
+/*******************************/
+
+.about {
+  
+  width: 220px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  
+}
+
+/*******************************/
+
+.skills {
+  
+  width: 220px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  
+}
+
+.bar-content {
+  
+  width: 235px;
+  height: 160px;
+  position: absolute;
+  top: 40px;
+  left: 5px;
+  
+}
+
+.html {
+  
+  width: 65px;
+  height: 30px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  float: left;
+  
+}
+
+.css {
+  
+  width: 65px;
+  height: 30px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  float: left;
+  
+}
+
+.js {
+  
+  width: 65px;
+  height: 30px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  float: left;
+  
+}
+
+.php {
+  
+  width: 65px;
+  height: 30px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  float: left;
+  
+}
+
+.grafikt {
+  
+  width: 65px;
+  height: 30px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  float: left;
+  
+}
+
+/******************************/
+.project {
+  
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  padding: 10px;
+  
+}
+
+.project-item {
+  
+  margin-top: 35px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 150px;
+  height: 200px;
+  border: 2px solid #8643CD;
+  border-radius: 5px;
+  
+}
+
+.project-logo-item {
+  
+  opacity: 0.4;
+  width: 70px;
+  height: 70px;
+  background: #8643CD;
+  border-radius: 70px;
+  position: relative;
+  top: 8px;
+  left: 28px;
+  
+}
+
+.project-logo-item2 {
+  
+  width: 70px;
+  height: 70px;
+  border: 1.5px solid white;
+  border-radius: 70px;
+  position: relative;
+  top: -58px;
+  left: 20px;
+  
+}
+
+.lang {
+  
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  top: 155px;
+  display: flex;
+  justify-content: center;
+  
+}

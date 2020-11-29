@@ -1,0 +1,287 @@
+.profile.hide {
+  
+  position: absolute;
+  top: -5000px;
+  opacity: 0;
+  visibility: 0;
+  
+}
+
+.about.hide {
+  
+  position: absolute;
+  top: -5000px;
+  opacity: 0;
+  visibility: 0;
+  
+}
+
+.skills.hide {
+  
+  position: absolute;
+  top: -5000px;
+  opacity: 0;
+  visibility: 0;
+  
+} 
+
+.project.hide {
+  
+  position: absolute;
+  top: -5000px;
+  opacity: 0;
+  visibility: 0;
+  
+}
+
+.profile.anime {
+  
+  animation: profile-anime 1s ease;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes profile-anime {
+  
+  100% {
+    
+    opacity: 0;
+    visibility: 0;
+    position: absolute;
+    top: -2000px;
+     
+    
+  }
+  
+}
+
+.profile.anime2 {
+  
+  animation: profile-anime2 1s ease;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes profile-anime2 {
+  
+  0% {
+    
+    opacity: 0;
+    visibility: 0;
+    position: absolute;
+    top: -2000px;
+     
+    
+  }
+  
+}
+
+.about.anime {
+  
+ animation: about-anime 1s ease; 
+ animation-fill-mode: forwards;
+ 
+}
+
+@keyframes about-anime {
+  
+  0% {
+    
+    opacity: 0;
+    visibility: 0;
+    position: absolute;
+    top: 2000px;
+     
+    
+  }
+  
+}
+
+
+.about.anime2 {
+  
+ animation: about-anime2 1s ease; 
+ animation-fill-mode: forwards;
+ 
+}
+
+@keyframes about-anime2 {
+  
+  100% {
+    
+    opacity: 0;
+    visibility: 0;
+    position: absolute;
+    top: 2000px;
+     
+    
+  }
+  
+}
+
+.about.anime3 {
+  
+ animation: about-anime3 1s ease; 
+ animation-fill-mode: forwards;
+ 
+}
+
+@keyframes about-anime3 {
+  
+  100% {
+    
+    opacity: 0;
+    visibility: 0;
+    position: absolute;
+    top: -2000px;
+     
+    
+  }
+  
+}
+
+.about.anime4 {
+  
+ animation: about-anime4 1s ease; 
+ animation-fill-mode: forwards;
+ 
+}
+
+@keyframes about-anime4 {
+  
+  0% {
+    
+    opacity: 0;
+    visibility: 0;
+    position: absolute;
+    top: -2000px;
+     
+    
+  }
+  
+}
+
+.skills.anime {
+  
+ animation: skills-anime 1s ease; 
+ animation-fill-mode: forwards;
+ 
+}
+
+@keyframes skills-anime {
+  
+  0% {
+    
+    opacity: 0;
+    visibility: 0;
+    position: absolute;
+    top: 2000px;
+     
+    
+  }
+  
+}
+
+.skills.anime2 {
+  
+ animation: skills-anime2 1s ease; 
+ animation-fill-mode: forwards;
+ 
+}
+
+@keyframes skills-anime2 {
+  
+  100% {
+    
+    opacity: 0;
+    visibility: 0;
+    position: absolute;
+    top: 2000px;
+      
+    
+  }
+  
+}
+
+.skills.anime3 {
+  
+ animation: skills-anime3 1s ease; 
+ animation-fill-mode: forwards;
+ 
+}
+
+@keyframes skills-anime3 {
+  
+  100% {
+    
+    opacity: 0;
+    visibility: 0;
+    position: absolute;
+    top: -2000px;
+     
+    
+  }
+  
+}
+
+.skills.anime4 {
+
+  animation: skills-anime4 1s ease;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes skills-anime4 {
+
+  0% {
+
+    opacity: 0;
+    visibility: 0;
+    position: absolute;
+    top: -2000px;
+
+
+  }
+
+}
+
+.project.anime {
+  
+ animation: project-anime 1s ease; 
+ animation-fill-mode: forwards;
+ 
+}
+
+@keyframes project-anime {
+  
+  0% {
+    
+    opacity: 0;
+    visibility: 0;
+    position: absolute;
+    top: 2000px;
+    
+  }
+  
+}
+
+.project.anime2 {
+  
+ animation: project-anime2 1s ease; 
+ animation-fill-mode: forwards;
+ 
+}
+
+@keyframes project-anime2 {
+  
+  100% {
+    
+    opacity: 0;
+    visibility: 0;
+    position: absolute;
+    top: 2000px;
+     
+    
+  }
+  
+}

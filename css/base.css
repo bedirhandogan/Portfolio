@@ -14,7 +14,6 @@
 }
 
 .user {
-  
   width: 100px;
   height: 100px;
   border-radius: 100px;
@@ -23,14 +22,24 @@
   top: -10px;
   background: url('https://i.hizliresim.com/v2w0DF.gif');
   background-size: cover;
-  
+  transition: 1s all;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  -webkit-transition: 1s all;
+  -moz-transition: 1s all;
+  -ms-transition: 1s all;
+  -o-transition: 1s all;
 }
 
 .user:hover {
-  
   transform: scale(1.1);
   transition: 1s;
-  
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 .hr {
@@ -90,7 +99,6 @@
 }
 
 .html {
-  
   width: 65px;
   height: 30px;
   background: none;
@@ -100,11 +108,13 @@
   display: flex;
   justify-content: center;
   float: left;
-  
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .css {
-  
   width: 65px;
   height: 30px;
   background: none;
@@ -114,11 +124,13 @@
   display: flex;
   justify-content: center;
   float: left;
-  
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .js {
-  
   width: 65px;
   height: 30px;
   background: none;
@@ -128,11 +140,13 @@
   display: flex;
   justify-content: center;
   float: left;
-  
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .php {
-  
   width: 65px;
   height: 30px;
   background: none;
@@ -142,11 +156,13 @@
   display: flex;
   justify-content: center;
   float: left;
-  
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .grafikt {
-  
   width: 65px;
   height: 30px;
   background: none;
@@ -156,7 +172,10 @@
   display: flex;
   justify-content: center;
   float: left;
-  
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 /******************************/
@@ -176,7 +195,6 @@
 }
 
 .project-item {
-  
   margin-top: 35px;
   margin-left: 5px;
   margin-right: 5px;
@@ -184,7 +202,10 @@
   height: 200px;
   border: 2px solid #8643CD;
   border-radius: 5px;
-  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .project-logo-item {
@@ -201,7 +222,6 @@
 }
 
 .project-logo-item2 {
-  
   width: 70px;
   height: 70px;
   border: 1.5px solid white;
@@ -209,7 +229,10 @@
   position: relative;
   top: -58px;
   left: 20px;
-  
+  -webkit-border-radius: 70px;
+  -moz-border-radius: 70px;
+  -ms-border-radius: 70px;
+  -o-border-radius: 70px;
 }
 
 .lang {

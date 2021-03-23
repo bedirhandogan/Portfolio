@@ -1,6 +1,5 @@
 /********** Swipe **********/
 .btn {
-  
   width: 30px;
   height: 60px;
   border: 1px solid white;
@@ -13,17 +12,19 @@
   right: -320px;
   bottom: 0;
   margin: auto;
-  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .up {
-  
   color: #8643CD;
   font-size: 25px;
   position: absolute;
   top: 0;
   animation: up 1s ease;
-  
+  -webkit-animation: up 1s ease;
 }
 
 @keyframes up {
@@ -38,13 +39,12 @@
 } 
 
 .down {
-  
   color: #8643CD;
   font-size: 25px;
-  position: absolute; 
+  position: absolute;
   bottom: 0;
   animation: down 1s ease;
-  
+  -webkit-animation: down 1s ease;
 }
 
 @keyframes down {

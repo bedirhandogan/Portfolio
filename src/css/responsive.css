@@ -2,6 +2,10 @@
     .main {
         width: 95%;
     }
+
+    .main .about .description {
+        min-width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -19,12 +23,6 @@
     }
 }
 
-/* @media (max-width: 510px) {
-    .human-card {
-        max-width: 354px;
-    }
-} */
-
 @media (max-width: 425px) {
     .main .projects .list .project .name {
         font-size: 15px;
@@ -37,6 +35,10 @@
 
     .main .projects .list .project .status .count span {
         font-size: 10px;
+    }
+
+    .main .about :is(.description, .skills strong) {
+        font-size: 15px;
     }
 }
 

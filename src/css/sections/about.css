@@ -1,0 +1,31 @@
+.main .about {
+    position: relative;
+}
+
+.main .about .description {
+    margin: 0;
+    color: white;
+    width: 75%;
+}
+
+.main .about .skills {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.main .about .skills strong {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.048);
+    border: 1px solid rgba(128, 128, 128, 0.26);
+    backdrop-filter: blur(5px);
+    padding: 0 5px;
+    font-weight: 200;
+    border-radius: 5px;
+}
+
+.main .about .skills strong::before {
+    content: '#';
+    color: rgb(196, 196, 196);
+}

@@ -1,0 +1,50 @@
+@media (max-width: 1024px) {
+    .main {
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main .navbar {
+        height: 55px;
+    }
+
+    .main .navbar .social img {
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .human-card {
+        transform: scale(0.7);
+    }
+}
+
+/* @media (max-width: 510px) {
+    .human-card {
+        max-width: 354px;
+    }
+} */
+
+@media (max-width: 425px) {
+    .main .projects .list .project .name {
+        font-size: 15px;
+    }
+
+    .main .projects .list .project .status .count .c-name {
+        font-size: 11px;
+        background-color: transparent;
+    }
+
+    .main .projects .list .project .status .count span {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 369px) {
+    .main {
+        display: flex;
+    }
+    .human-card {
+        display: none;
+    }
+}

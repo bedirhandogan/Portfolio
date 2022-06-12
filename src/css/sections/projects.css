@@ -1,0 +1,100 @@
+.main .projects {
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+
+.main .projects h3 {
+    color: white;
+}
+
+.main .projects .list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-gap: 0 25px;
+}
+
+.main .projects .see {
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.main .projects .see:hover {
+    opacity: 0.7;
+}
+
+.main .projects .list .project {
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: var(--border-radius-l);
+    width: 100%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.048);
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(128, 128, 128, 0.26);
+    box-sizing: border-box;
+}
+
+.main .projects .list .project .name {
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main .projects .list .project .name::after {
+    content: 'Public';
+    font-weight: 200;
+    font-size: 13px;
+    border: 1px solid gray;
+    padding: 1px 8px;
+    border-radius: 15px;
+}
+
+.main .projects .list .project .name:hover > .data {
+    text-decoration: underline;
+}
+
+.main .projects .list .project .name .data a {
+    color: white;
+    text-decoration: none;
+}
+
+.main .projects .list .project .about {
+    color: rgba(255, 255, 255, 0.63);
+    line-height: 1rem;
+    font-size: 15px;
+    font-weight: 200;
+    max-width: calc(350px - 25px);
+    max-height: 50px;
+}
+
+.main .projects .list .project .status {
+    position: absolute;
+    bottom: 25px;
+    width: calc(100% - 50px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .projects .list .project .status .count {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    gap: 5px;
+    color: rgba(255, 255, 255, 0.651);
+}
+
+.main .projects .list .project .status .count img {
+    width: 18px;
+}
+
+.main .projects .list .project .status .count .c-count {
+    background-color: black;
+    padding: 2px 5px;
+    border-radius: 5px;
+    user-select: none;
+}

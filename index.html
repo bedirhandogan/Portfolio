@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/css/import.css">
+    <link rel="shortcut icon" href="src/img/avatar.png" type="image/x-icon">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    
+    <title> Bedirhan Doğan </title>
+</head>
+<body>
+
+    <div class="main">
+        <model-viewer bounds="tight" enable-pan src="src/model/human.glb" environment-image="neutral" shadow-intensity="1" auto-rotate> </model-viewer>
+        <!-- Navbar -->
+        <div class="navbar">
+            <h3> 
+                Bedirhan
+                <div class="tooltip"> Bedirhan </div>
+            </h3>
+
+            <div class="social">
+                <a href="#">
+                    <img src="src/img/github-fill.svg">
+                    <div class="tooltip"> Github </div>
+                </a>
+                <a href="#">
+                    <img src="src/img/linkedin-fill.svg">
+                    <div class="tooltip"> Linkedin </div>
+                </a>
+                <a href="#">
+                    <img src="src/img/behance-fill.svg">
+                    <div class="tooltip"> Behance </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Section: Projects -->
+        <div class="projects">
+            <h3 class="title">Works</h3>
+            <div class="list">
+                
+            </div>
+            <a href="" class="see" target="_blank"> see all </a>
+        </div>
+    </div>
+
+    <div class="human-card">
+        <model-viewer bounds="tight" enable-pan src="src/model/human.glb" environment-image="neutral" shadow-intensity="1" auto-rotate id="model-viewer"> </model-viewer>
+        <div class="button" id="skip-card"> 
+            To continue 
+            <img src="src/img/right-arrow.svg">
+        </div>
+    </div>
+    
+    <script src="src/js/github-api.js"></script>
+    <script src="src/js/skip-card.js"></script>
+</body>
+</html>

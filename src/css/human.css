@@ -1,0 +1,54 @@
+.human-card {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-image: url('/src/img/card.png');
+    background-repeat: no-repeat;
+    transform: skew(0, 5deg);
+    background-size: 100%;
+    margin: auto;
+    width: 506px;
+    height: 732px;
+}
+
+.human-card model-viewer {
+    top: 200px;
+    min-height: 381px;
+}
+
+model-viewer {
+    --poster-color: transparent;
+    width: 43%;
+    height: 43vh;
+
+    position: absolute;
+    top: 210px;
+    left: 80px;
+    right: 0;
+    margin: auto;
+}
+
+
+.main model-viewer {
+    width: 500px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 85px;
+    margin: 1px;
+}
+
+.main model-viewer {
+   opacity: 0.5; 
+}
+.main model-viewer::part(default-progress-bar) {
+    background-color: transparent;
+}
+
+model-viewer::part(default-progress-bar) {
+    background-color: #7e7e7e;
+}
+
+model-viewer::part(default-progress-mask) {
+    background-color: transparent;
+}

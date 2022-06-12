@@ -1,0 +1,71 @@
+:root {
+    --background-color: #1A1A1A;
+    --border-radius-l: 15px;
+}
+
+body, html {
+    margin: 0;
+    background-color: var(--background-color);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+img {
+    user-select: none;
+}
+
+a {
+    color: transparent;
+}
+
+div.button {
+    width: max-content;
+    padding: 5px 10px;
+
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.048);
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(128, 128, 128, 0.26);
+    cursor: pointer;
+    user-select: none;
+    border-radius: 5px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 25px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.title {
+    width: max-content;
+    color: white;
+}
+
+.title::before {
+    content: 'section/';
+    font-weight: 200;
+    color: gray;
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+}

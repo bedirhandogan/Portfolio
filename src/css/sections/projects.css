@@ -1,7 +1,5 @@
 .main .projects {
     position: relative;
-    width: 100%;
-    height: 150px;
 }
 
 .main .projects h3 {
@@ -11,7 +9,7 @@
 .main .projects .list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
-    grid-gap: 0 25px;
+    grid-gap: 25px;
 }
 
 .main .projects .see {
@@ -26,7 +24,6 @@
 }
 
 .main .projects .list .project {
-    margin-top: 30px;
     padding: 25px;
     border-radius: var(--border-radius-l);
     width: 100%;

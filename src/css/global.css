@@ -51,6 +51,7 @@ div.button {
 }
 
 .title {
+    margin-bottom: 18px;
     width: max-content;
     color: white;
 }

@@ -39,6 +39,7 @@ model-viewer {
 }
 
 .main model-viewer {
+    z-index: -1;
    opacity: 0.5; 
 }
 .main model-viewer::part(default-progress-bar) {

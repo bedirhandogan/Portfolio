@@ -28,17 +28,17 @@
         font-size: 15px;
     }
 
-    .main .projects .list .project .status .count .c-name {
-        font-size: 11px;
+    .main .projects .list .project .status .count :is(.c-name, span) {
+        font-size: 10px;
         background-color: transparent;
     }
 
-    .main .projects .list .project .status .count span {
-        font-size: 10px;
+    .main .about .description {
+        font-size: 15px;
     }
 
-    .main .about :is(.description, .skills strong) {
-        font-size: 15px;
+    .main .about .skills strong {
+        font-size: 13px;
     }
 }
 

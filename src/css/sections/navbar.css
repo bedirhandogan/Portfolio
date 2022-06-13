@@ -1,0 +1,63 @@
+.main .navbar {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: var(--background-color-2);
+    backdrop-filter: blur(5px);
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius-l);
+
+    padding: 0 25px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .navbar h3 {
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    color: var(--color-white-2);
+}
+
+.main .navbar .social {
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    gap: 7px;
+}
+
+.main .navbar .social img {
+    background-color: var(--background-color-2);
+    padding: 10px;
+    border-radius: var(--border-radius-l);
+    transition: all 200ms;
+}
+
+.main .navbar .social img:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.main .navbar .social a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main .navbar .social a img:hover + .tooltip {
+    display: block;
+}
+
+.main .navbar h3 .tooltip {
+    bottom: -42px;
+}
+
+.main .navbar h3:hover > .tooltip {
+    display: block;
+}

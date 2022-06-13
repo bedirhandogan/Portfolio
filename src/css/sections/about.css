@@ -4,7 +4,7 @@
 
 .main .about .description {
     margin: 0;
-    color: white;
+    color: var(--color-white-1);
     width: 75%;
     line-height: 27px;
 }
@@ -26,12 +26,12 @@
     position: absolute;
     bottom: -45px;
     display: none;
-    color: white;
+    color: var(--color-white-1);
     font-size: 12px;
 
-    background-color: rgba(12, 12, 12, 0.753);
+    background-color: var(--background-color-tooltip);
     backdrop-filter: blur(5px);
-    border: 2px solid rgba(128, 128, 128, 0.26);
+    border: 2px solid var(--border-color);
     border-radius: 7px;
     padding: 5px 10px;
 }

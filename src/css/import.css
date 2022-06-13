@@ -3,7 +3,8 @@
 @import url('human.css');
 @import url('main.css');
 @import url('responsive.css');
+@import url('sections/navbar.css');
 @import url('sections/about.css');
 @import url('sections/projects.css');
 @import url('sections/introduction.css');
-@import url('sections/footer.css');
+@import url('sections/footer.css')

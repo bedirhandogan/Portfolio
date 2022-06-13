@@ -1,9 +1,9 @@
 .main .footer {
-    background-color: rgba(255, 255, 255, 0.048);
+    background-color: var(--background-color-2);
     backdrop-filter: blur(5px);
-    border: 2px solid rgba(128, 128, 128, 0.26);
+    border: 2px solid var(--border-color);
     border-radius: var(--border-radius-l);
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--color-white-2);
     min-height: 50px;
 
     display: flex;

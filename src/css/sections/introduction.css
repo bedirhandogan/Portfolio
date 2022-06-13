@@ -4,6 +4,6 @@
 
 .main .introduction .description {
     margin: 0;
-    color: white;
+    color: var(--color-white-1);
     width: 75%;
 }

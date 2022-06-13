@@ -1,6 +1,6 @@
 .main {
     position: relative;
-    top: 25px;
+    margin: 25px 0;
     z-index: 99;
     width: 70%;
     min-height: 100px;

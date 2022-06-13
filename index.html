@@ -44,41 +44,41 @@
             <p class="description">Hi 👋, I am a Front-end developer since 2020. I developed many open-source project over vue, react, nuxt. I like to deal with web design, application development, and with UI/UX design.</p>
         </section>
 
-                <!-- Section: About -->
-                <section class="about">
-                    <h3 class="title">About</h3>
-                    <p class="description">
-                        My name is bedirhan, I am 19 years old. I am a high school student who continues his school life remotely. <br> 
-                        I am interested in web application and UI/UX Designs. Working as a freelancer, I developed many web applications and web designs. <br> 
-                        I have been dealing with this business since 2020 and I have developed many open source projects. I love to develop projects with up-to-date technologies, I like to learn more while doing.
-                    </p>
-                    <article class="skills">
-                        <div>
-                            <img src="src/img/figma-fill.svg">
-                            <div class="tooltip"> Figma </div>
-                        </div>
-                        <div>
-                            <img src="src/img/js-fill.svg">
-                            <div class="tooltip"> Javascript </div>
-                        </div>
-                        <div>
-                            <img src="src/img/nuxt-fill.svg">
-                            <div class="tooltip"> Nuxt </div>
-                        </div>
-                        <div>
-                            <img src="src/img/reactjs-fill.svg">
-                            <div class="tooltip"> React </div>
-                        </div>
-                        <div>
-                            <img src="src/img/tailwind-fill.svg">
-                            <div class="tooltip"> Tailwind </div>
-                        </div>
-                        <div>
-                            <img src="src/img/vuejs-fill.svg">
-                            <div class="tooltip"> Vue</div>
-                        </div>
-                    </article>
-                </section>
+        <!-- Section: About -->
+        <section class="about">
+            <h3 class="title">About</h3>
+            <p class="description">
+                My name is <strong>bedirhan</strong>, I am 19 years old. I am a high school student who continues his school life remotely. <br> 
+                I am interested in web application and UI/UX Designs. Working as a freelancer, I developed many web applications and web designs. <br> <br>
+                I have been dealing with this business since 2020 and I have developed many open source projects. I love to develop projects with up-to-date technologies, I like to learn more while doing.
+            </p>
+            <article class="skills">
+                <div>
+                    <img src="src/img/figma-fill.svg">
+                    <div class="tooltip"> Figma </div>
+                </div>
+                <div>
+                    <img src="src/img/js-fill.svg">
+                    <div class="tooltip"> Javascript </div>
+                </div>
+                <div>
+                    <img src="src/img/nuxt-fill.svg">
+                    <div class="tooltip"> Nuxt </div>
+                </div>
+                <div>
+                    <img src="src/img/reactjs-fill.svg">
+                    <div class="tooltip"> React </div>
+                </div>
+                <div>
+                    <img src="src/img/tailwind-fill.svg">
+                    <div class="tooltip"> Tailwind </div>
+                </div>
+                <div>
+                    <img src="src/img/vuejs-fill.svg">
+                    <div class="tooltip"> Vue</div>
+                </div>
+            </article>
+        </section>
 
         <!-- Section: Projects -->
         <section class="projects">
@@ -87,6 +87,11 @@
                 
             </article>
             <a href="" class="see" target="_blank"> see all </a>
+        </section>
+
+        <!-- Section: Footer -->
+        <section class="footer">
+            <div>&#169; <span>0000</span> Bedirhan Doğan.</div>
         </section>
     </div>
 
@@ -100,5 +105,10 @@
     
     <script src="src/js/github-api.js"></script>
     <script src="src/js/skip-card.js"></script>
+    <script>
+        const footer = document.querySelector('.footer > div > span');
+        const year = new Date().getFullYear();
+        footer.innerHTML = year;
+    </script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 @media (max-width: 1024px) {
     .main {
-        width: 95%;
+        width: 90%;
     }
 
     .main :is(.about .description, .introduction .description) {
@@ -35,10 +35,6 @@
 
     .main :is(.about .description, .introduction .description) {
         font-size: 15px;
-    }
-
-    .main .about .skills strong {
-        font-size: 13px;
     }
 }
 

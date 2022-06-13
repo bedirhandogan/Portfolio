@@ -1,0 +1,9 @@
+.main .introduction {
+    position: relative;
+}
+
+.main .introduction .description {
+    margin: 0;
+    color: white;
+    width: 75%;
+}

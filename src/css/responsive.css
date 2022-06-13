@@ -3,7 +3,7 @@
         width: 95%;
     }
 
-    .main .about .description {
+    .main :is(.about .description, .introduction .description) {
         min-width: 100%;
     }
 }
@@ -33,7 +33,7 @@
         background-color: transparent;
     }
 
-    .main .about .description {
+    .main :is(.about .description, .introduction .description) {
         font-size: 15px;
     }
 

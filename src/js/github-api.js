@@ -1,6 +1,6 @@
 const username = 'bedirhandogan';
 const see = document.querySelector('.see');
-see.setAttribute('href', `https://github.com/${username}`)
+see.setAttribute('href', `https://github.com/${username}?tab=repositories`);
 
 fetch(`https://api.github.com/users/${username}/repos`)
 .then(response => response.json())

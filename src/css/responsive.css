@@ -46,3 +46,12 @@
         display: none;
     }
 }
+
+@media (max-width: 842px) and (orientation: landscape) {
+    .main {
+        display: flex;
+    }
+    .human-card {
+        display: none;
+    }
+}
